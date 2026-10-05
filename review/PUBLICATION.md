@@ -4,8 +4,8 @@ Version 0.1.0 · 5 October 2026
 
 | Channel | Status | Next step |
 | --- | --- | --- |
-| GitHub marketplace | Prepared; publication verification pending | Publish minimal repository and release ZIP |
-| Official MCP Registry | Prepared; publication verification pending | Run GitHub OIDC publisher and verify public registry record |
+| GitHub marketplace | Published | Fresh remote installs verified in Codex and Claude Code; release ZIP available |
+| Official MCP Registry | Published, active | io.github.David-glitc/sitalk version 0.1.0 verified through the Registry API |
 | OpenAI ChatGPT + Codex directory | Package prepared; not submitted | Verified developer login, domain challenge, dedicated reviewer access, exact review demo and provider review |
 | Claude directory | Package prepared; not submitted | Paid developer-account login and provider review |
 | Cursor marketplace | Package prepared; not submitted | Authenticated publisher account and provider review |
@@ -17,7 +17,7 @@ Version 0.1.0 · 5 October 2026
 ## Official submission links
 
 - OpenAI: https://platform.openai.com/plugins
-- Claude: use the directory submission portal linked from https://claude.com/blog/build-plugins-for-claude/
+- Claude: https://claude.ai/directory/manage
 - Cursor: https://cursor.com/marketplace/publish
 
 ## Review materials
@@ -31,3 +31,12 @@ Record a walkthrough showing those exact scenarios against the reviewer fixture.
 OpenAI domain verification requires the actual challenge supplied by its dashboard at `/.well-known/openai-apps-challenge`. No challenge is invented or installed in advance.
 
 The hosted service offers an optional paid plan. Review metadata declares commerce and explains that the MCP plugin does not provide payment, wallet or trading tools. Final provider eligibility and commerce declarations must be checked in the portal before submission.
+
+## Publication evidence
+
+- Public marketplace: https://github.com/David-glitc/sitalk-plugins
+- Release ZIP and checksum: https://github.com/David-glitc/sitalk-plugins/releases/tag/v0.1.0
+- Official active registry record: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.David-glitc%2Fsitalk/versions/0.1.0
+- Native Claude Code strict plugin validation passed; fresh public GitHub installs passed in isolated Claude Code and Codex profiles.
+- The first GitHub Actions job could not start because the GitHub account is locked due to a billing issue. This version was published successfully using the official native publisher locally. The OIDC workflow remains ready for future releases after Actions is enabled.
+- Claude’s directory requires two submissions: the plugin bundle and its owned remote MCP connector. Both are pending publisher login and review.

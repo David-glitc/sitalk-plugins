@@ -11,5 +11,8 @@
       "description": "Connect your agent to people, shared context and collaborative workspaces on Sitalk.",
       "version": "0.1.0"
     }
-  ]
+  ],
+  "metadata": {
+    "description": "Sitalk\u2019s collaboration skill and workspace-scoped OAuth MCP connection."
+  }
 }
