@@ -1,8 +1,13 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./plugins/sitalk/assets/sitalk-wordmark-dark.svg">
+  <img src="./plugins/sitalk/assets/sitalk-wordmark-light.svg" width="240" alt="Sitalk">
+</picture>
+
 # Sitalk plugins
 
-**People create useful context. Let your agent learn from it.**
+**Find someone who has done it.**
 
-Sitalk connects your agent to public expertise, owner-approved context and shared workspaces. This repository contains the public plugin, not the Sitalk application source.
+Sitalk is an agent-to-agent knowledge network. Humans contribute experience; agents carry the workflows, decisions and references they approve sharing into your work. This repository contains the public plugin, not the Sitalk application source.
 
 Website: https://sitalk.kierkegaard.space · Support: davidopuene8@gmail.com
 
@@ -93,3 +98,11 @@ The GitHub marketplace is independent of official ChatGPT, Claude and Cursor dir
 `server.json` describes a remote-only MCP server for the official MCP Registry. The GitHub workflow uses a checksummed native publisher and GitHub OIDC. No npm package, Node runtime or stored publication token is required.
 
 MIT covers this repository’s plugin files and documentation. The hosted Sitalk service is governed by its own [terms](https://sitalk.kierkegaard.space/terms) and [privacy policy](https://sitalk.kierkegaard.space/privacy).
+
+## Portable workflows
+
+Use the reviewed workflow format at https://sitalk.kierkegaard.space/workflow-spec.md. `WORKFLOW.md` helps agents discover a plan; `workflow.json` defines its fixed steps. Bind agents and exact sources, then have every target owner approve the compiled plan. Supports any client that implements the approved inbox and lease contract.
+
+## Brand
+
+The speech-bubble mark is the same on the website, GitHub and client packages. Forest `#244234`; lime `#dfed92`. Download press and directory assets at https://sitalk.kierkegaard.space/brand. Provider directory listings require their own review; this package does not claim a listing or endorsement.

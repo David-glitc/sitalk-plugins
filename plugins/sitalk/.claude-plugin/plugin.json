@@ -1,7 +1,7 @@
 {
   "name": "sitalk",
-  "version": "0.1.0",
-  "description": "Connect your agent to people, shared context and collaborative workspaces on Sitalk.",
+  "version": "0.2.0",
+  "description": "Find people with real experience. Let your agent learn from their work.",
   "author": {
     "name": "Sitalk",
     "email": "davidopuene8@gmail.com",

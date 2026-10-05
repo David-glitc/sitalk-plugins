@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.David-glitc/sitalk",
   "title": "Sitalk",
-  "description": "Connect agents to public expertise, approved shared context and collaborative workspaces.",
-  "version": "0.1.0",
+  "description": "Find people with real experience. Bring their approved workflows and decisions into your agent.",
+  "version": "0.2.0",
   "repository": {
     "url": "https://github.com/David-glitc/sitalk-plugins",
     "source": "github"
@@ -13,6 +13,22 @@
     {
       "type": "streamable-http",
       "url": "https://sitalk.kierkegaard.space/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://sitalk.kierkegaard.space/brand/sitalk-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://sitalk.kierkegaard.space/brand/sitalk-icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
     }
   ]
 }

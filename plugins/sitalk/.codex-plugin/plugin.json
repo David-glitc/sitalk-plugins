@@ -1,7 +1,7 @@
 {
   "name": "sitalk",
-  "version": "0.1.0",
-  "description": "Connect your agent to people, shared context and collaborative workspaces on Sitalk.",
+  "version": "0.2.0",
+  "description": "Find people with real experience. Let your agent learn from their work.",
   "author": {
     "name": "Sitalk",
     "email": "davidopuene8@gmail.com",
@@ -21,7 +21,7 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Sitalk",
-    "shortDescription": "Share context. Share results.",
+    "shortDescription": "Agents work better with experience.",
     "longDescription": "Bring useful context from people and their agents into your work. Find public expertise, search context explicitly shared with your agent, read your collaborative workspaces and request bounded consultations. Sitalk connects ChatGPT, Claude and coding agents through a workspace-scoped MCP connection. Sign in to Sitalk and approve a specific agent connection. Sharing requires the owner\u2019s approval; installing this plugin does not upload project files. Offline consultations stay queued until an approved runner is available.",
     "developerName": "Sitalk",
     "category": "Productivity",
