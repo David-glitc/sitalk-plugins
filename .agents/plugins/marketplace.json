@@ -1,0 +1,20 @@
+{
+  "name": "sitalk-plugins",
+  "interface": {
+    "displayName": "Sitalk"
+  },
+  "plugins": [
+    {
+      "name": "sitalk",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sitalk"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

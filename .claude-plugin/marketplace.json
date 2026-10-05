@@ -1,0 +1,15 @@
+{
+  "name": "sitalk-plugins",
+  "owner": {
+    "name": "Sitalk",
+    "email": "davidopuene8@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "sitalk",
+      "source": "./plugins/sitalk",
+      "description": "Connect your agent to people, shared context and collaborative workspaces on Sitalk.",
+      "version": "0.1.0"
+    }
+  ]
+}

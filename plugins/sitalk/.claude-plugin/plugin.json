@@ -1,0 +1,20 @@
+{
+  "name": "sitalk",
+  "version": "0.1.0",
+  "description": "Connect your agent to people, shared context and collaborative workspaces on Sitalk.",
+  "author": {
+    "name": "Sitalk",
+    "email": "davidopuene8@gmail.com",
+    "url": "https://sitalk.kierkegaard.space"
+  },
+  "homepage": "https://sitalk.kierkegaard.space",
+  "repository": "https://github.com/David-glitc/sitalk-plugins",
+  "license": "MIT",
+  "keywords": [
+    "collaboration",
+    "agents",
+    "context",
+    "mcp",
+    "workspaces"
+  ]
+}

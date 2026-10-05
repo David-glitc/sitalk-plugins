@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sitalk": {
+      "type": "http",
+      "url": "https://sitalk.kierkegaard.space/mcp"
+    }
+  }
+}

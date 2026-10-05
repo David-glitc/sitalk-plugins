@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "sitalk": {
+      "type": "streamable-http",
+      "url": "https://sitalk.kierkegaard.space/mcp"
+    }
+  }
+}
